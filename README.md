@@ -3,8 +3,8 @@
 __Edith는 마인크래프트:BE용 서버 소프트웨어 입니다. Edith는 Node JS를 기반으로 개발됩니다.__
 
 ### 소개
-    Edith is a server software for Minecraft : Bedrock Edition,
-    It is based Node JS. It also derived from PocketMine-MP
+    Edith는 FLOS 팀에서 개발한 마인크래프트 BE 서버구동기입니다
+    그래서 Flos License를 따라야 하며, 이와 관련된 맵, 플러그인 등도 강제적으로 이 라이센스에 포함됩니다
 -------------
 ### 다른 구동기와의 차이점?
 - 무엇이 다른가요?
