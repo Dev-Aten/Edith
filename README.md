@@ -1,2 +1,2 @@
 # Edith
-A Minecraft: Bedrock Edition server software written in NodeJS
+  A Minecraft: Bedrock Edition server software written in NodeJS
