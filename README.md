@@ -1,34 +1,13 @@
 # Edith( 에디스 )
-	This program is free software: you can redistribute it and/or modify
-	it under the terms of the GNU Lesser General Public License as published by
-	the Free Software Foundation, either version 3 of the License, or
-	(at your option) any later version.
 
-	This program is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU Lesser General Public License for more details.
+__Edith는 마인크래프트:BE용 서버 소프트웨어 입니다. Edith는 Node JS를 기반으로 개발됩니다.__
 
-	You should have received a copy of the GNU Lesser General Public License
-	along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-__MineJS is a server software for Minecraft : Bedrock Edition, MineJS is based Node JS.__
-
-### Introducion
+### 소개
     Edith is a server software for Minecraft : Bedrock Edition,
     It is based Node JS. It also derived from PocketMine-MP
 -------------
-### What is diffrent?
-- It is made by node js. node.js has an event-driven architecture capable of asynchronous I/O. and use node js cluster, so it can be support multi-core environment.
-- Conventional PE server platforms there is a problem to can't derive the best performance of the multi-core CPU. Because most software using synchronous i/o. Conventional solution to this problem was a run many servers by the same number of CPU cores. But users does not want to reconnect the server every time select to server different port their self. MineJS is just need only one server. because it has using node js cluster. that's why doesn't matter how many cores exist.
-- No need to build or compile, You can run the plug-in and server immediately using their original source files. and doesn't need to program close to apply the update changes. it support /restart command and it can simply update using /update command. (it automatically report version check.)
-
--------------
-### How to use MineJS?
-- Install Node JS <6.x.x -> https://nodejs.org/
-- Download Project : https://install.edith.kro.kr
-- In project folder, open terminal and type `node mine`
-
-(Doesn't need npm install, it automatically program works)
-
+### 다른 구동기와의 차이점?
+- 무엇이 다른가요?
+이 프로젝트는 Node JS를 통해서 개발되었습니다. 노드 JS는 이벤트 드리븐 설계 방식의 비동기 I/O를 이용하며. Edith는 노드 JS 클러스터를 이용합니다. 그렇기에 멀티코어 환경을 지원할 수 있습니다.
+- 별도로 빌드하거나 컴파일 할 필요가 없습니다, 오직 플러그인과 서버의 원본 소스만으로 바로 프로그램을 실행 할 수 있습니다. 또한 변경사항을 적용하기 위해 서버를 종료할 필요도 없습니다. 이 프로그램은 /restart 명령어를 지원하며 업데이트 또한 /update 명령어로 가능합니다. (자동으로 버전을 확인해서 보고합니다.)
 -------------
